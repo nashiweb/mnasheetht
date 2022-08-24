@@ -326,3 +326,148 @@ img {
     
     
   }
+
+  @media screen and (max-width: 768px) {
+    #aboutcontainer {
+        height: 1000px;
+        margin-top: 100px;
+    }
+
+    #projectscontainer,
+    #contactcontainer {
+        height: 1000px;
+        margin-top: 100px;
+    }
+    
+    #socialbuttons {
+        width: auto;
+        padding: 10px;
+    }
+  }
+
+  
+  @media screen and (max-width: 425px) {
+    #aboutcontainer {
+        height: 500px;
+        margin-top: 100px;
+    }
+
+    #projectscontainer {
+        height: 1500px;
+        margin-top: 100px;
+    }
+
+    #contactcontainer {
+        height: 500px;
+    }
+    
+    #socialbuttons {
+        width: auto;
+        padding: 10px;
+    }
+    #contactdiv {
+        font-size: 25px;
+    }
+    #namecontainer{
+        font-size: 25px;
+        text-align: center;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #namehead {
+        font-size: 18px;
+        text-align: center;
+    }
+    #topnav,
+    #uldiv {
+        padding: 0%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #aboutcontainer {
+        height: 500px;
+        margin-top: 100px;
+    }
+
+    #projectscontainer {
+        height: 1500px;
+        margin-top: 100px;
+    }
+
+    #contactcontainer {
+        height: 500px;
+    }
+    
+    #socialbuttons {
+        width: auto;
+        padding: 10px;
+    }
+    #contactdiv {
+        font-size: 25px;
+    }
+    #namecontainer     {
+        font-size: 25px;
+        text-align: center;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #namehead {
+        font-size: 18px;
+        text-align: center;
+    }
+    #topnav,
+    #uldiv {
+        padding: 0%;
+    }
+    h2, h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+  }
+
+
+  @media screen and (max-width: 320px) {
+    #aboutcontainer {
+        height: 500px;
+        margin-top: 100px;
+    }
+
+    #projectscontainer {
+        height: 1500px;
+        margin-top: 100px;
+    }
+
+    #contactcontainer {
+        height: 500px;
+    }
+    
+    #socialbuttons {
+        width: auto;
+        padding: 10px;
+    }
+    #contactdiv {
+        font-size: 25px;
+    }
+    #namecontainer     {
+        font-size: 25px;
+        text-align: center;
+    }
+    h2, h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    #namehead {
+        font-size: 18px;
+        text-align: center;
+    }
+    #topnav,
+    #uldiv {
+        padding: 0%;
+    }
+    
+  }
+  
